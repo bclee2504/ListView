@@ -13,7 +13,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        String[] listItem =  {"Australia", "Belarus", "Canada"};
+        String[] listItem =  {"Australia", "Belarus", "Canada", "Denmark"};
         ListView simpleListView = findViewById(R.id.simpleList);
         ListAdapter arrayAdapter= new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, listItem);
 
